@@ -82,7 +82,7 @@ function StoreProfile() {
   };
 
   if (!currentUser) {
-    return <div>Loading...</div>;
+    return <div className="text-center mt-5">Loading...</div>;
   }
 
   const inputFields = [
