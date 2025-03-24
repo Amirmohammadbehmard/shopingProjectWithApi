@@ -6,7 +6,7 @@ import ToggleThemeButton from "../toggleThemeButton/ToggleThemeButton";
 
 function CompleteNavbar() {
   const menuItems = [
-    { path: "/", label: "Home" },
+    { path: "/shopingProjectWithApi/", label: "Home" },
     { path: "/about", label: "About" },
     { path: "/cart", label: "Cart" },
     { path: "/contact", label: "Contact" },
