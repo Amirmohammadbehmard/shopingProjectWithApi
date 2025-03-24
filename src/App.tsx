@@ -20,7 +20,7 @@ function App() {
       <ShopingCartProvider>
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/shopingProjectWithApi/" element={<Home />} />
             <Route path="/product/:id" element={<Product />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
