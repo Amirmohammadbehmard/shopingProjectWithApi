@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  padding-top: 55px;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+input::placeholder {
+  color: rgb(95, 94, 94);
+}
